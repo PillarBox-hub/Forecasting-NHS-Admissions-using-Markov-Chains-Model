@@ -1,0 +1,2 @@
+# Forecasting-NHS-Admissions-using-Markov-Chains-Model
+For an organisation to plan effectively, it is essential that it can in some way anticipate the future. This project uses ten years of historical NHS A&amp;E admission data to predict the next ten years of A&amp;E admissions flow, using the Markov chain model. This can enable hospitals to make the necessary decisions in effective hospital management.
