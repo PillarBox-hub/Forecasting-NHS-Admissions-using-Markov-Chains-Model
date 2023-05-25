@@ -26,8 +26,11 @@ This project attempts to accurately forecast the next ten years of NHS admission
 This folder contains 8 python scripts for quarterly forecasts across 10 years. 
 
 **Q1Type1Final represents the first Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
+
 **Q1Type2Final represents the first Quarter for type 2 single speciality admissions predictions from 2022 to 2031** 
+
 **Q2Type1Final represents the second Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
+
 **Q2Type2Final represents the second Quarter for type 2 single speciality admissions predictions from 2022 to 2031** 
 **Q3Type1Final represents the third Quarter for type 1 A&E admissions admissions predictions from 2022 to 2031** 
 **Q3Type2Final represents the third Quarter for type 2 single speciality admissions predictions from 2022 to 2031**
