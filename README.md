@@ -21,9 +21,9 @@ This project attempts to accurately forecast the next ten years of NHS admission
 
 # Code Scripts and their Description
 
-**Admissions.zip** 
+1. **Admissions.zip** 
 
-This folder contains 8 python scripts for quarterly forecasts across 10 years. 
+This folder contains 8 Python scripts for quarterly forecasts across 10 years. 
 
 **Q1Type1Final represents the first Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
 
@@ -40,6 +40,17 @@ This folder contains 8 python scripts for quarterly forecasts across 10 years.
 **Q4Type1Final represents the fourth Quarter for type 1 A&E admissions predictions from 2022 to 2031**
 
 **Q4Type2Final represents the fourth Quarter for type 2 single speciality admissions predictions from 2022 to 2031**
+
+
+2. **Forecast1.zip**
+
+This file contains 2 Python scripts for Quarterly forecasts across 10 years mainly using numpy and pandas. Transition matrix are applied to the actuals to derive the forecasts for the said durations. 
+
+**Type1 represents the Quarterly predictions for A&E admissions based on the matrix{probability})
+
+**Type2 represents the Quarterly predictions for single speciality admissions based on the matrix{probability})
+
+
 
 
 
