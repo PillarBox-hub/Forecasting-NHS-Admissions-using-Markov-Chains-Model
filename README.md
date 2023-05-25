@@ -16,3 +16,23 @@ Finally, during the deployment phase, the knowledge gained from this project wil
 
 # Key Findings
 This project attempts to accurately forecast the next ten years of NHS admissions, using historical data. The predicted results were compared to the actual results of the ten years of historic data, and we observed an average of 6.27% in-accuracy. This reveals that admissions are not so unpredictable, except for a fluke in the year of the COVID-19 pandemic.
+
+
+
+# Code Scripts and their Description
+
+**Admissions.zip** 
+
+This folder contains 8 python scripts for quarterly forecasts across 10 years. 
+
+**Q1Type1Final represents the first Quarter for type 1 A&E admissions predictions from 2022 to 2031. 
+**Q1Type2Final represents the first Quarter for type 2 single speciality admissions predictions from 2022 to 2031. 
+**Q2Type1Final represents the second Quarter for type 1 A&E admissions predictions from 2022 to 2031. 
+**Q2Type2Final represents the second Quarter for type 2 single speciality admissions predictions from 2022 to 2031. 
+**Q3Type1Final represents the third Quarter for type 1 A&E admissions admissions predictions from 2022 to 2031. 
+**Q3Type2Final represents the third Quarter for type 2 single speciality admissions predictions from 2022 to 2031.
+**Q4Type1Final represents the fourth Quarter for type 1 A&E admissions predictions from 2022 to 2031.
+**Q4Type2Final represents the fourth Quarter for type 2 single speciality admissions predictions from 2022 to 2031.
+
+
+
