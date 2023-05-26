@@ -44,18 +44,28 @@ This folder contains 8 Python scripts for quarterly forecasts across 10 years.
 
 2. **Forecast1.zip**
 
+
 This file contains 2 Python scripts for Quarterly forecasts across 10 years mainly using numpy and pandas. Transition matrix are applied to the actuals to derive the forecasts for the said durations. 
 
 **Type1 represents the Quarterly predictions for A&E admissions based on the transition matrix{probability})**
 
-**Type2 represents the Quarterly predictions for single speciality admissions based on the transition matrix{probability})**
+**Type2 represents the Quarterly predictions for single speciality admissions based on the transition matrix{probability})** 
+
+
 
 
 3. **TestModels**
 
 This file contains 4 python jupyter notebook files:
 
-**DataInTen mostly  involves the use pandas and time series machine learning tecniques like arima, sarima, etc to carry out forecast for both A&E admissions and single speciality admissions. These models are evaluated and their performances compared as well. 
+
+**DataInTen mostly  involves the use pandas and time series machine learning tecniques like arima etc to carry out forecast for both A&E admissions and single speciality admissions and compared to Markov Chains. These models are evaluated and their performances compared as well with ARIMA performing quite poor as compared to Markov Chain** 
+
+**P represents to use of numpy to define functions that carries out forecast using transition matrices for quarter 1 admissions** 
+
+**Q1Type1Second represents further functions defined to carry out predictions on type 2 admissions using markov chain**
+
+**Upgrad represents further addition of code to predict for subsequent quarters i.e. Q2,Q3,Q4** 
 
 
 
