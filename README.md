@@ -25,21 +25,21 @@ This project attempts to accurately forecast the next ten years of NHS admission
 
 This folder contains 8 Python scripts for quarterly forecasts across 10 years. 
 
-**Q1Type1Final represents the first Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
+**1.Q1Type1Final represents the first Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
 
-**Q1Type2Final represents the first Quarter for type 2 single speciality admissions predictions from 2022 to 2031** 
+**2. Q1Type2Final represents the first Quarter for type 2 single speciality admissions predictions from 2022 to 2031** 
 
-**Q2Type1Final represents the second Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
+**3. Q2Type1Final represents the second Quarter for type 1 A&E admissions predictions from 2022 to 2031** 
 
-**Q2Type2Final represents the second Quarter for type 2 single speciality admissions predictions from 2022 to 2031** 
+**4. Q2Type2Final represents the second Quarter for type 2 single speciality admissions predictions from 2022 to 2031** 
 
-**Q3Type1Final represents the third Quarter for type 1 A&E admissions admissions predictions from 2022 to 2031** 
+**5. Q3Type1Final represents the third Quarter for type 1 A&E admissions admissions predictions from 2022 to 2031** 
 
-**Q3Type2Final represents the third Quarter for type 2 single speciality admissions predictions from 2022 to 2031**
+**6. Q3Type2Final represents the third Quarter for type 2 single speciality admissions predictions from 2022 to 2031**
 
-**Q4Type1Final represents the fourth Quarter for type 1 A&E admissions predictions from 2022 to 2031**
+**7. Q4Type1Final represents the fourth Quarter for type 1 A&E admissions predictions from 2022 to 2031**
 
-**Q4Type2Final represents the fourth Quarter for type 2 single speciality admissions predictions from 2022 to 2031**
+**8. Q4Type2Final represents the fourth Quarter for type 2 single speciality admissions predictions from 2022 to 2031**
 
 
 2. **Forecast1.zip**
@@ -47,9 +47,9 @@ This folder contains 8 Python scripts for quarterly forecasts across 10 years.
 
 This file contains 2 Python scripts for Quarterly forecasts across 10 years mainly using numpy and pandas. Transition matrix are applied to the actuals to derive the forecasts for the said durations. 
 
-**Type1 represents the Quarterly predictions for A&E admissions based on the transition matrix{probability})**
+**A. Type1 represents the Quarterly predictions for A&E admissions based on the transition matrix{probability})**
 
-**Type2 represents the Quarterly predictions for single speciality admissions based on the transition matrix{probability})** 
+**B. Type2 represents the Quarterly predictions for single speciality admissions based on the transition matrix{probability})** 
 
 
 
@@ -59,13 +59,13 @@ This file contains 2 Python scripts for Quarterly forecasts across 10 years main
 This file contains 4 python jupyter notebook files:
 
 
-**DataInTen mostly  involves the use pandas and time series machine learning tecniques like arima etc to carry out forecast for both A&E admissions and single speciality admissions and compared to Markov Chains. These models are evaluated and their performances compared as well with ARIMA performing quite poor as compared to Markov Chain** 
+**A. DataInTen mostly  involves the use pandas and time series machine learning tecniques like arima etc to carry out forecast for both A&E admissions and single speciality admissions and compared to Markov Chains. These models are evaluated and their performances compared as well with ARIMA performing quite poor as compared to Markov Chain** 
 
-**P represents to use of numpy to define functions that carries out forecast using transition matrices for quarter 1 admissions** 
+**B. P represents to use of numpy to define functions that carries out forecast using transition matrices for quarter 1 admissions** 
 
-**Q1Type1Second represents further functions defined to carry out predictions on type 2 admissions using markov chain**
+**C. Q1Type1Second represents further functions defined to carry out predictions on type 2 admissions using markov chain**
 
-**Upgrad represents further addition of code to predict for subsequent quarters i.e. Q2,Q3,Q4** 
+**D. Upgrad represents further addition of code to predict for subsequent quarters i.e. Q2,Q3,Q4** 
 
 
 
